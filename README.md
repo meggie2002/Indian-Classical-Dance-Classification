@@ -6,6 +6,7 @@ This project aims to classify images of **Indian classical dance forms** using *
 
 ## Dataset Overview
 
+**Source**: [Kaggle - Indian Dance Form Recognition Dataset](https://www.kaggle.com/datasets/somnath796/indian-dance-form-recognition)
 - **Total Images**: 520  
 - **Classes**:
   - Bharatanatyam
