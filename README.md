@@ -118,3 +118,8 @@ Images were cleaned and filtered to ensure only available files were used. Strat
 - Implement ensemble techniques
 - Add explainability using **Grad-CAM** or **LIME**
 
+
+## Acknowledgements
+- Kaggle Dataset - Indian Dance Form Recognition
+- TensorFlow & Keras Documentation
+- Google Colab for GPU Resources
