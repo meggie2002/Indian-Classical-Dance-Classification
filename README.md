@@ -196,9 +196,8 @@ For detailed setup instructions, see [SETUP.md](SETUP.md)
 ## 📂 Repository Structure
 ```
 Indian-Classical-Dance-Classification/
-├── Indian_Dance_XAI.ipynb          # Complete pipeline (updated 2026)
+├── Indian_Dance_Classification_XAI.ipynb          # Complete pipeline (updated 2026)
 ├── requirements.txt                 # Python dependencies
-├── SETUP.md                         # Detailed installation guide
 ├── LICENSE                          # MIT License
 ├── README.md                        # This file
 └── images/
