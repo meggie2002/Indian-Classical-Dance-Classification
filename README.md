@@ -80,7 +80,7 @@ To answer this, I implemented **Grad-CAM (Gradient-weighted Class Activation Map
 
 ### Findings Across All Three Architectures
 
-![XAI Comparison](final_dance_analysis.png)
+![XAI Comparison](architecture_comparison.png)
 
 **Simple CNN:** Shows reasonable attention to dancer bodies and traditional costumes (white turbans, colored vests), demonstrating even basic architectures can identify relevant regions.
 
