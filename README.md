@@ -88,6 +88,7 @@ The ~29% gap between training and validation accuracy is expected given the cons
 - Comparable to human classification without domain expertise
 
 ![Overfitting Concept](https://assets.ibm.com/is/image/ibm/overfitting-and-underfitting-in-machine-learning-1:4x3?fmt=png-alpha&dpr=on%2C1.25&wid=512&hei=384)
+
 *Image: High variance (overfitting) occurs when models memorize training data. Source: [IBM](https://www.ibm.com/think/topics/overfitting-vs-underfitting)*
 
 **Mitigation Strategies Applied (2026 Enhancement):**
