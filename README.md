@@ -58,6 +58,10 @@ Using Grad-CAM, we overlay "attention heatmaps" to verify the model's logic. Our
 * `final_dance_analysis.png`: Plot of XAI heatmaps and learning curves.
 * `leaderboard.csv`: (Generated) Comparison data of tested architectures.
 
+## 📥 Download Trained Model
+Due to file size limits on GitHub, the pre-trained weights for the InceptionV3 model can be downloaded here:
+[**Download best_dance_model.keras**](https://drive.google.com/file/d/1cmc_bLAAiWSZn3zUcd9-yuLIAki-dL_R/view?usp=sharing)
+
 ---
 
 ## 📚 References & Citations
