@@ -36,6 +36,7 @@ The gap between 99% training accuracy and 66% validation accuracy indicates **Hi
 
 
 ![Overfitting and Underfitting](https://assets.ibm.com/is/image/ibm/overfitting-and-underfitting-in-machine-learning-1:4x3?fmt=png-alpha&dpr=on%2C1.25&wid=512&hei=384)
+*Image Source: [IBM - Overfitting vs. underfitting: Finding the balance](https://www.ibm.com/think/topics/overfitting-vs-underfitting)*
 
 **Mitigation Strategies:**
 1. **Restoration:** Used `restore_best_weights` to ignore the final (overfitted) epochs.
