@@ -175,7 +175,7 @@ ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=3)
 ## 🚀 Quick Start
 
 ### Option 1: Google Colab (Recommended)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/meggie2002/Indian-Classical-Dance-Classification/blob/main/Indian_Dance_XAI.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/meggie2002/Indian-Classical-Dance-Classification/blob/main/Indian_Dance_Classification_XAI.ipynb)
 
 1. Click the badge above
 2. Runtime → Change runtime type → GPU (T4)
@@ -212,7 +212,7 @@ Indian-Classical-Dance-Classification/
 
 Due to file size limitations on GitHub, the trained model weights are hosted separately:
 
-**[Download best_dance_model.keras (83.3 MB)](https://drive.google.com/file/d/1cmc_bLAAiWSZn3zUcd9-yuLIAki-dL_R/view?usp=sharing)**
+**[Download best_dance_model.keras (84.3 MB)](https://drive.google.com/file/d/17UzdrMKKdoZbISz4lV_LwH9Q4pMhn6tL/view?usp=sharing)**
 
 This model contains the **Epoch 4 weights** (best validation accuracy: 56.94%) automatically restored by early stopping.
 
