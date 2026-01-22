@@ -9,7 +9,7 @@
 
 This repository demonstrates a deep learning approach to classifying **8 forms of Indian Classical Dance** using transfer learning with InceptionV3. Originally developed in 2024 as a basic architecture comparison, the project was **significantly enhanced in January 2026** with explainable AI (Grad-CAM), advanced regularization strategies, and comprehensive performance analysis.
 
-**Key Innovation:** Adding visual explainability to verify the model focuses on relevant dance features rather than background artifacts—a critical consideration for cultural AI applications.
+**Key Innovation:** Adding visual explainability to verify the model focuses on relevant dance features rather than background artifacts a critical consideration for cultural AI applications.
 
 ---
 
@@ -49,7 +49,7 @@ I evaluated three architectures to identify the most effective feature extractor
 
 ### **Phase 2: Production Training with Early Stopping** (2026 Enhancement)
 
-The selected model was trained with aggressive regularization strategies—a significant improvement over the 2024 version:
+The selected model was trained with aggressive regularization strategies a significant improvement over the 2024 version:
 
 **Training Configuration:**
 - **Callbacks:** Early stopping (patience=4, monitoring val_accuracy) + Learning rate reduction on plateau
@@ -102,7 +102,7 @@ The ~29% gap between training and validation accuracy is expected given the cons
 
 **Critical Question:** Is the model learning authentic dance features or just memorizing backgrounds?
 
-This was the **major addition in the 2026 update**. I implemented **Grad-CAM (Gradient-weighted Class Activation Mapping)** to visualize where the model focuses attention during classification—something missing from the original 2024 implementation.
+This was the **major addition in the 2026 update**. I implemented **Grad-CAM (Gradient-weighted Class Activation Mapping)** to visualize where the model focuses attention during classification something missing from the original 2024 implementation.
 
 ### Findings Across All Three Architectures
 
@@ -110,7 +110,7 @@ This was the **major addition in the 2026 update**. I implemented **Grad-CAM (Gr
 
 **Simple CNN:** Shows reasonable attention to dancer bodies and traditional costumes (white turbans, colored vests), demonstrating even basic architectures can identify relevant regions.
 
-**VGG16:** Displays very coarse, blocky activation patterns with poor spatial precision—explaining its lowest accuracy (26%).
+**VGG16:** Displays very coarse, blocky activation patterns with poor spatial precision explaining its lowest accuracy (26%).
 
 **InceptionV3:** Exhibits structured activation patterns concentrated on central image regions containing dancers. While the heatmap shows horizontal bands rather than precise anatomical localization, the model clearly focuses on foreground subjects rather than stage backgrounds.
 
@@ -133,7 +133,7 @@ The learning curves clearly show:
 - **Early stopping triggered correctly** at epoch 8 after 4 epochs without improvement
 - **Validation accuracy peaked** at 56.94% (epoch 4), where weights were restored
 - **Validation loss plateaued** around 1.3-1.4, indicating the model reached its capacity
-- **Training continued improving** while validation stagnated—classic overfitting signal
+- **Training continued improving** while validation stagnated classic overfitting signal
 
 ---
 
