@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 
 ## 📌 Project Overview
-This repository contains a deep learning framework designed to classify **8 forms of Indian Classical Dance**. While many models act as "black boxes," this project implements **Grad-CAM** to provide visual explanations. This ensures the model identifies dance forms based on authentic cultural markers—like hand gestures (**Mudras**) and leg postures—rather than background artifacts.
+This repository contains a deep learning framework designed to classify **8 forms of Indian Classical Dance**. While many models act as "black boxes," this project implements **Grad-CAM** to provide visual explanations. This ensures the model identifies dance forms based on authentic cultural markers like hand gestures (**Mudras**) and leg postures—rather than background artifacts.
 
 ---
 
