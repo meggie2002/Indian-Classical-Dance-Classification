@@ -1,0 +1,4 @@
+Model,Accuracy
+Simple_CNN,0.33
+VGG16,0.26
+InceptionV3,0.45
